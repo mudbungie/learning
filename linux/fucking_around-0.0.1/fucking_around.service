@@ -1,0 +1,10 @@
+[Unit]
+Description=Just messing around
+[Service]
+Type=simple
+ExecStart=/opt/fucking_around/fuck_around
+Restart=always
+PIDFile=/tmp/fucking_around.pid
+User=mark
+[Install]
+WantedBy=multi-user.target
